@@ -1,0 +1,251 @@
+<!doctype html>
+
+<html lang="en-US">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Quiz 1 - Web Programming (C)</title>
+
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Google Fonts  -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'> <!-- Body font -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> <!-- Navbar font -->
+
+        <!-- Libs and Plugins CSS -->
+        <link rel="stylesheet" href="inc/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="inc/animations/css/animate.min.css">
+        <link rel="stylesheet" href="inc/font-awesome/css/font-awesome.min.css"> <!-- Font Icons -->
+        <link rel="stylesheet" href="inc/owl-carousel/css/owl.carousel.css">
+        <link rel="stylesheet" href="inc/owl-carousel/css/owl.theme.css">
+
+        <!-- Theme CSS -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobile.css">
+
+        <!-- Skin CSS -->
+        <!-- <link rel="stylesheet" href="css/skin/cool-gray.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/ice-blue.css"> -->
+        <!-- <link rel="stylesheet" href="css/skin/summer-orange.css"> -->
+        <link rel="stylesheet" href="css/skin/fresh-lime.css">
+        <!-- <link rel="stylesheet" href="css/skin/night-purple.css"> -->
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body data-spy="scroll" data-target="#main-navbar">
+        <div class="page-loader"></div>  <!-- Display loading image while page loads -->
+        <div class="body">
+        
+            <!--========== BEGIN HEADER ==========-->
+            <header id="header" class="header-main">
+
+                <!-- Begin Navbar -->
+                <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent. Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+
+                  <div class="container">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand page-scroll" href="index.html">Quiz 1</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="page-scroll" href="index.html">Home</a></li>
+                            <li><a class="page-scroll" href="profile.html">Profile</a></li>
+                            <li><a class="page-scroll" href="hometown.html">Hometown</a></li>
+                            <li><a class="page-scroll" href="food.html">Food</a></li>
+                            <li><a class="page-scroll" href="body" style="color: white;">Tourist</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container -->
+                </nav>
+                <!-- End Navbar -->
+
+            </header>
+            <!-- ========= END HEADER =========-->
+            
+
+
+            
+            <!-- Begin Tourist -->
+            <section id="tourist-section" class="page bg-style1" style="margin-top: 40px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio">
+                                <!-- Begin page header-->
+                                <div class="page-header-wrapper">
+                                    <div class="container">
+                                        <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                            <h2>Tourist</h2>
+                                            <div class="devider"></div>
+                                            <p class="subtitle">WHAT WE ARE PROUD OF</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End page header-->
+                                <div class="portfoloi_content_area" >
+                                    <div class="portfolio_menu" id="filters">
+                                        <ul>
+                                            <li class="active_prot_menu"><a href="#porfolio_menu" data-filter="*">all</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".natural">natural</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".historical" >historical</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".market">market</a></li>
+                                            <li><a href="#porfolio_menu" data-filter=".waterPark">water park</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="portfolio_content">
+                                        <div class="row"  id="portfolio">
+                                            <div class="col-xs-12 col-sm-4 natural">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/lapindoHot.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Lapindo Hot Mud Tour</a>
+                                                        <span>If you are attracted to enjoy it, you can have a visit at Lumpur Lapindo in Porong district, Sidoarjo. There is no admission fee (the parking service is charged) so that you can explore the place anytime you want. We recommend you come late in the afternoon to see the best view.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 historical">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/mpuTantular.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Mpu Tantular Museum</a>
+                                                        <span>For those loving digging some knowledge, dropping in Mpu Tantular Museum to learn the local culture and history would be a nice pick. The visitors will be charged about 3,000 IDR to 5,000 IDR. The opening hours are from 8 am to 5 pm.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 market">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/gadingFajar.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Gading Fajar Night Market</a>
+                                                        <span>To feel the city’s night vibrancy, you can hit Gading Fajar night market. At an area spanning 1 kilometer, you can discover the hustle and bustle of the marketplace. Be sure to know the opening hours (from 4 pm to 11:30 pm).</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 waterPark">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/jungleWaterPark.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Jungle Water Park</a>
+                                                        <span>Jungle Water Park is such a new attraction in Sidoarjo that deserves a visit. The opening hours of this busy place are from 7 am to 6 pm, and the admission fee ranges from 10,000 IDR to 15,000 IDR.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 natural">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img//tourist/kebunCokelat.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Kebun Cokelat, Balong Bendo</a>
+                                                        <span>Kebun Cokelat is a coffee shop located on Jalan Raya Balong Bendo number 151. It offers a wide array of mouth-watering foods you can opt for such as mi gobyor, mi cower, and much more. For ice cream lovers, just order your favorite listed on the menu.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 historical">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/sidoarjoMonument.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Sidoarjo’s Town Square and Monument</a>
+                                                        <span>Sidoarjo’s town square, sitting elegantly in the hub of the city, is such an ideal place to spend the weekends and holidays. The green space is filled with well-kept grass and giant palms so that the visitors could take a chill for hours.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 market">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/pazkulKahuripan.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Pazkul Kahuripan Nirwana</a>
+                                                        <span>Seeking a cool spot for hanging out? Do not miss the Pazkul Kahuripan Nirwana. It is a culinary market with a food court concept with Go Green exterior; the shady tables with umbrellas, Green Park, and romantic garden lights. We recommend you visit at 3 pm.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 waterPark">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/suncityWaterPark.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Suncity Water Park</a>
+                                                        <span>Do you love playing with water? Do not forget to have a visit to Suncity Water Park, located on Jalan Pahlawan number 1 Sidoarjo. The opening hours of Suncity Waterpark are from 8 am to 6 pm. The entrance ticket is 25,000 IDR (from Monday to Friday) and 30,000 IDR on the weekends.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-4 natural">
+                                                <div class="portfolio_single_content">
+                                                    <img src="img/tourist/prambonForest.jpg" alt="title"/>
+                                                    <div>
+                                                        <a href="#">Prambon Forest</a>
+                                                        <span>If you travel with kids, Prambon Forest would be a nice alternative. The attraction situated in Prambon is an educative recreational park combining to boost your children’s intelligence, physical condition, and mental health.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End tourist -->
+
+
+
+
+            <!-- Begin footer -->
+            <footer class="text-off-white">
+                
+                <div class="footer">
+                    <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
+                        <p class="copyright">Copyright &copy; 2021 - <a href="https://aldoyaputrahartono.blogspot.com/" target="_blank" class="theme-author">Aldo Yaputra Hartono</a></p>
+                    </div>
+                </div>
+
+            </footer>
+            <!-- End footer -->
+
+            <a href="#" class="scrolltotop"><i class="fa fa-arrow-up"></i></a> <!-- Scroll to top button -->
+                                              
+        </div><!-- body ends -->
+        
+        
+        
+        
+        <!-- Plugins JS -->
+        <script src="inc/jquery/jquery-1.11.1.min.js"></script>
+        <script src="inc/bootstrap/js/bootstrap.min.js"></script>
+        <script src="inc/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="inc/stellar/js/jquery.stellar.min.js"></script>
+        <script src="inc/animations/js/wow.min.js"></script>
+        <script src="inc/waypoints.min.js"></script>
+        <script src="inc/isotope.pkgd.min.js"></script>
+        <script src="inc/classie.js"></script>
+        <script src="inc/jquery.easing.min.js"></script>
+        <script src="inc/jquery.counterup.min.js"></script>
+        <script src="inc/smoothscroll.js"></script>
+
+        <!-- Theme JS -->
+        <script src="js/theme.js"></script>
+
+    </body> 
+        
+            
+</html>
