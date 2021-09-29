@@ -4,11 +4,11 @@
 |----|---|-----|
 |Aldo Yaputra Hartono|05111940000084|Web Programming (C)|
 
-I Build this website using HTML, CSS, JavaScript, and Bootstrap.
+I build this website using HTML, CSS, JavaScript, and Bootstrap.
 
 You can visit the website in [here](https://aldoyaputrahartono.github.io/quiz1/).
 
-## Homepage
+## Home
 ![FireShot Capture 350 - Quiz 1 - Web Programming (C) - ](https://user-images.githubusercontent.com/31863229/135254410-197a608f-2c75-44d8-af9d-03211727a3ed.png)
 
 ![FireShot Capture 351 - Quiz 1 - Web Programming (C) - ](https://user-images.githubusercontent.com/31863229/135254414-871e81c2-9323-4eb9-8a68-3c03f1558469.png)
